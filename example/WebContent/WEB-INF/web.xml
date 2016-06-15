@@ -49,4 +49,34 @@
     <servlet-name>ForwardServlet</servlet-name>
     <url-pattern>/ForwardServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ServletApp</display-name>
+    <servlet-name>ServletApp</servlet-name>
+    <servlet-class>ServletApp.ServletApp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletApp</servlet-name>
+    <url-pattern>/ServletApp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SiteEV</display-name>
+    <servlet-name>SiteEV</servlet-name>
+    <servlet-class>model.SiteEV</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SiteEV</servlet-name>
+    <url-pattern>/SiteEV</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>MinatoIndex</display-name>
+    <servlet-name>MinatoIndex</servlet-name>
+    <servlet-class>servlet.MinatoIndex</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MinatoIndex</servlet-name>
+    <url-pattern>/MinatoIndex</url-pattern>
+  </servlet-mapping>
 </web-app>
